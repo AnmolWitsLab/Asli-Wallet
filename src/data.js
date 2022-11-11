@@ -9,7 +9,7 @@ const data = [
     id: 2,
     Name: 'PAN CARD',
     Description: 'GOVERNMENT OF INDIA',
-    color: 'blue',
+    color: 'green',
     marginTop: -70,
   },
   {

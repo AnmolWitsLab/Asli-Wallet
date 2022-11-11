@@ -61,14 +61,12 @@ const styles = StyleSheet.create({
 
   Wrapper: {
     height: '100%',
-    backgroundColor: 'rgba(0, 0, 0, 0.5) ',
-    opacity: 0.5,
+    backgroundColor: 'rgba(0, 0, 0, 0.2) ',
     alignItems: 'center',
   },
   modalWrap: {
-    justifyContent: 'center',
     alignItems: 'center',
-    marginTop: 300,
+    marginTop: 310,
     borderRadius: 10,
     width: '93%',
   },
@@ -76,17 +74,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     height: 780,
-    backgroundColor: 'rgba(0, 0, 0, 0.3)',
   },
 
   textStyle: {
     borderRadius: 50,
-    backgroundColor: 'white',
+    backgroundColor: '#191970',
     top: 400,
     left: 160,
-    opacity: 0.5,
-    paddingHorizontal: 20,
-    paddingVertical: 20,
+    paddingHorizontal: 12,
+    paddingVertical: 12,
     justifyContent: 'center',
     width: '15%',
     alignItems: 'center',
@@ -94,6 +90,8 @@ const styles = StyleSheet.create({
   },
   Cross: {
     color: 'white',
+    fontSize: 25,
+    fontWeight: 'bold',
   },
 });
 
